@@ -140,6 +140,7 @@ import com.android.settings.wifi.tether.WifiTetherSettings;
 
 import org.omnirom.omnigears.OmniDashboardFragment;
 import org.omnirom.omnigears.ButtonSettings;
+import org.omnirom.omnigears.interfacesettings.StyleSettings;
 import org.omnirom.omnigears.moresettings.MoreSettings;
 
 public class SettingsGateway {
@@ -270,6 +271,7 @@ public class SettingsGateway {
 
             // omni additions start
             OmniDashboardFragment.class.getName(),
+            StyleSettings.class.getName(),
             ButtonSettings.class.getName(),
             MoreSettings.class.getName(),
     };
@@ -313,6 +315,7 @@ public class SettingsGateway {
 
             // Home page > OmniGears
             Settings.DevicePartsActivity.class.getName(),
+            Settings.StyleSettingsActivity.class.getName(),
             Settings.ButtonSettingsActivity.class.getName(),
             Settings.MoreSettingsActivity.class.getName(),
     };
