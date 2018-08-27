@@ -142,6 +142,7 @@ import org.omnirom.omnigears.OmniDashboardFragment;
 import org.omnirom.omnigears.ButtonSettings;
 import org.omnirom.omnigears.GestureSettings;
 import org.omnirom.omnigears.interfacesettings.BarsSettings;
+import org.omnirom.omnigears.batterylight.BatteryLightSettings;
 import org.omnirom.omnigears.interfacesettings.StyleSettings;
 import org.omnirom.omnigears.moresettings.MoreSettings;
 
@@ -278,6 +279,7 @@ public class SettingsGateway {
             MoreSettings.class.getName(),
             GestureSettings.class.getName(),
             BarsSettings.class.getName(),
+            BatteryLightSettings.class.getName(),
     };
 
     public static final String[] SETTINGS_FOR_RESTRICTED = {
