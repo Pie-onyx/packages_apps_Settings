@@ -25,6 +25,10 @@
     <string name="ambient_play_history_menu_add_to_home">Add to Home Screen</string>
     <string name="ambient_play_history_dialog_remove_all_confirmation">Are you sure?</string>
 
+    <!-- Face auto unlock -->
+    <string name="face_auto_unlock_title">Automatic face unlock</string>
+    <string name="face_auto_unlock_summary">Dismiss lock screen after face unlock</string>
+
     <!-- Android debugging over WiFi -->
     <string name="adb_over_network">ADB over network</string>
     <string name="adb_over_network_summary">Enable TCP/IP debugging over network interfaces (Wi-Fi, USB networks). This setting is reset on reboot</string>
