@@ -20,6 +20,9 @@
     <!-- Vendor security patch level -->
     <string name="vendor_security_patch">Vendor security patch level</string>
 
+    <!-- Lemon version -->
+    <string name="lemon_version">Lemon version</string>
+
     <!-- Custom light color -->
     <string name="custom_light_title">Light color</string>
     <string name="custom_light_on_time_title">Light ON time during led pulse (ms)</string>
