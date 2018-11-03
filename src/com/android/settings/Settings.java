@@ -166,6 +166,9 @@ public class Settings extends SettingsActivity {
     public static class AccountDashboardActivity extends SettingsActivity {}
     public static class SystemDashboardActivity extends SettingsActivity {}
 
+    // Ambient play
+    public static class AmbientPlayHistoryActivity extends SettingsActivity { /* empty */ }
+
     // omni additions start
     public static class OmniDashboardActivity extends SettingsActivity {}
     public static class OmniJawsSettingsActivity extends SettingsActivity { /* empty */ }
