@@ -22,6 +22,13 @@
     android:padding="8dp"
     android:paddingStart="@dimen/wifi_ap_band_checkbox_padding">
 
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingStart="8dp"
+        android:text="@string/wifi_ap_band_select_one"
+        android:textAppearance="?android:attr/textAppearanceSmall"/>
+
     <CheckBox
         android:id="@+id/box_2g"
         android:layout_width="match_parent"
@@ -33,22 +40,6 @@
 
     <CheckBox
         android:id="@+id/box_5g"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:paddingStart="@dimen/wifi_ap_band_checkbox_padding"
-        android:textAppearance="?android:attr/textAppearanceMedium"/>
-
-    <RadioButton
-        android:id="@+id/r_box_2g"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="@dimen/wifi_ap_band_checkbox_padding"
-        android:layout_marginTop="@dimen/wifi_ap_band_checkbox_padding"
-        android:paddingStart="@dimen/wifi_ap_band_checkbox_padding"
-        android:textAppearance="?android:attr/textAppearanceMedium"/>
-
-    <RadioButton
-        android:id="@+id/r_box_5g"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:paddingStart="@dimen/wifi_ap_band_checkbox_padding"
